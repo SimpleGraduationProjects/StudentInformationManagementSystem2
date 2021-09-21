@@ -31,7 +31,7 @@
 	<!-- 配置写库 继承abstractDataSource-->
 	<bean id="dataSourceWrite" parent="abstractDataSource">
 		<!-- 基本url、username、password -->
-		<property name="url" value="jdbc:mysql://localhost:3306/selc?serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;autoReconnect=true&amp;allowMultiQueries=true" />
+		<property name="url" value="jdbc:mysql://localhost:3306/graduation_selc?serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;autoReconnect=true&amp;allowMultiQueries=true" />
 		<property name="username" value="root" />
 		<property name="password" value="123456" />
 	</bean>
